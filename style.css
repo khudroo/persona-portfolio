@@ -1,0 +1,351 @@
+/* ================================
+Common CSS
+=================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1320px;
+    width: 80%;
+    margin: 0 auto;
+}
+.text_center{
+    text-align: center;
+}
+
+/* ================================
+header_area CSS
+=================================== */
+
+
+.top_header{
+    display: flex;
+    justify-content: space-between;
+}
+.displey_flex_left {
+    background-image: url(img/u_p_shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 562px;
+}
+.logo{
+    text-align: right;
+}
+.logo img {
+    width: 30px;
+}
+.main_menu a{
+    text-decoration: none;
+    padding: 15px 18px;
+    color: #333;
+    transition: .5s;
+}
+.main_menu a:hover{
+    background-color: #FFB9BF;
+    border-radius: 5px;
+    color: azure;
+}
+
+.hero_content_right {
+    padding: 50px 25px;
+}
+
+.hero_content_right h4 {
+    padding: 20px 3px;
+    color: #5a88ff;
+    font-weight: 500;
+}
+.hero_content_right h1 {
+    font-size: 52px;
+    line-height: 60px;
+}
+.hero_content_right p {
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 300;
+    padding: 25px 0;
+}
+.hero_content_right .hero_btn {
+    padding: 15px 50px;
+    background: #5a88ff;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    transition: .5s;
+}
+.hero_content_right .hero_btn:hover{
+    background-color: #FFB9BF;
+    color: azure;
+}
+
+/* ================================
+ work_area CSS
+=================================== */
+.work_area{
+    padding: 100px 0;
+    margin-left: 50px;
+}
+
+.work_status .number{
+    float: left;
+}
+.number span {
+    font-size: 55px;
+    color: #FFB9BF;
+    line-height: 50px;
+    margin-right: 10px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+.number span:hover{
+    color: #5a88ff;
+}
+
+.work_status .work_text{
+    float: left;
+}
+
+
+
+
+
+
+
+/* ================================
+ my_portfolio CSS
+=================================== */
+.my_portfolio{
+    background-color: #fffafa;
+    padding: 70px 0;
+}
+.portfolio_left_content{
+
+}
+.portfolio_left_content h2 {
+    padding-top: 100px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.portfolio_left_content p {
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.portfolio_img{
+    padding: 30px 0;
+}
+.portfolio_img img{
+    max-width: 90%;
+    border-radius: 50px;
+    box-shadow: 5px 3px 16px #eaeaea;
+    border: 10px solid #92b1ff;
+}
+
+
+
+
+/* ================================
+ experience CSS
+=================================== */
+
+.experience{
+
+}
+
+.exp_info{
+    padding-top: 70px;
+}
+
+.exp_info h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    line-height: 60px;
+}
+
+.exp_img{
+    text-align: center;
+}
+.exp_img img{
+    width: 80%;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+/* ================================
+ promise CSS
+=================================== */
+
+.promise{
+    padding: 70px 0;
+    background-color: #fffafa;
+    width: 100%;
+    height: 500px;
+    
+}
+.promise_title{
+
+}
+.promise_title h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.promise_content{
+
+}
+.single_promise_item{
+    padding: 25px;
+}
+.item_icon {
+    float: left;
+    margin-right: 22px;
+    font-size: 41px;
+    color: #FFB9BF;
+}
+.single_promise_item h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.single_promise_item p{
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+
+/* ================================
+ review CSS
+=================================== */
+
+.review{
+    padding-top: 180px;
+    padding-bottom: 0px;
+}
+
+.review_bg{
+    background: #5a88ff;
+    width: 100%;
+    height: 300px;
+    border-radius: 35px;
+    
+}
+
+
+.review_left_content .fa-quote-left{
+    display: block;
+    position: relative;
+    top: 67px;
+    left: 30px;
+    font-size: 31px;
+    color: azure;
+}
+
+.review_left_content p {
+    padding-top: 45px;
+    padding-left: 78px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: azure;
+}
+.review_left_content h4 {
+    color: #f6f7f9;
+    font-size: 18px;
+    margin-left: 77px;
+    margin-top: 40px;
+}
+.review_right_content{
+
+}
+.review_img{ 
+    width: 300px;
+    position: relative;
+    top: -152px;
+    left: 100px;
+
+}
+
+
+
+/* ================================
+ about_me CSS
+=================================== */
+.about_me{
+    padding-bottom: 30px;
+}
+
+.about_content{
+    margin: 0 auto;
+}
+
+.about_content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 50px;
+}
+.para_text{
+    width: 600px;
+    margin: 0 auto;
+}
+.about_content p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.contact_me {
+    text-align: center;
+    padding: 30px 0;
+}
+.contact_me .hero_btn {
+    padding: 15px 50px;
+    background: #5a88ff;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    transition: .5s;
+}
+.contact_me .hero_btn:hover{
+    background-color: #FFB9BF;
+    color: azure;
+}
+
+/* ================================
+ Footer CSS
+=================================== */
+.footer{
+    padding: 50px 0;
+}
+
+.footer .logo{
+    text-align: left;
+}
+.footer_menu{
+    text-align: right;
+}

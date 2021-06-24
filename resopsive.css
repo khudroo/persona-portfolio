@@ -1,0 +1,139 @@
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+.container,.top_header::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+    /* For Desktop */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
+
+
+
+
+@media screen and (max-width: 576px){
+    /* Header Section */
+    .displey_flex_left  {
+        width: 100%;
+    }
+    .hero_content_right{
+       
+    }
+    .top_header{
+        flex-direction: column;
+        display: flex;
+        padding: 5px !important;
+    }
+    .main_menu{
+        padding-bottom: 20px !important ;
+    }
+    .main_menu a{
+        font-size: 14px !important;
+        padding: 10px 12px !important;
+    }
+    .logo img{
+        display: block !important;
+        float: none !important;
+        margin: 0 auto !important;
+    }
+
+    /* work Section */
+    
+    .work_area{
+        padding: 50px 0 !important;
+        margin-left: 50px;
+    }
+    .number,  .work_text{
+    float: none;
+    padding: 20px 0;
+    }
+
+    /*  my_portfolio */
+
+    .my_portfolio{
+        
+        padding: 20px 0 !important;
+    }
+    /* experience */
+
+    .exp_info h2{
+        font-size: 40px !important;
+       line-height: 50px;
+    }
+    .exp_img img{
+        width: 100% !important;
+        
+    }
+
+    
+    /*  promise */
+    .promise{
+        padding-bottom: 50px 0;
+        height: 1000px !important;
+    }
+
+    .promise_title h2{
+        line-height: 50px !important;
+    }
+
+    /* review */
+
+    .review{
+        padding: 70px 0px !important;
+    }
+    .review_bg{
+        height: 400px !important;
+    }
+    .review_img{ 
+        display: none;
+    }
+    /*  about_me */
+    .about_content h2 {
+        font-size: 40px !important;
+    }
+    .para_text{
+        width: 380px !important;
+    }
+
+ /* For mobile */
+ .col-s-1 {width: 8.33%;}
+ .col-s-2 {width: 16.66%;}
+ .col-s-3 {width: 25%;}
+ .col-s-4 {width: 33.33%;}
+ .col-s-5 {width: 41.66%;}
+ .col-s-6 {width: 50%;}
+ .col-s-7 {width: 58.33%;}
+ .col-s-8 {width: 66.66%;}
+ .col-s-9 {width: 75%;}
+ .col-s-10 {width: 83.33%;}
+ .col-s-11 {width: 91.66%;}
+ .col-s-12 {width: 100%;}
+
+
+}
